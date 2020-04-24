@@ -1,5 +1,17 @@
+/* Header/Title Area*/
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Monkey Business */
+
 .canvas {
-  height: 500px;
+  height: 400px;
   width: 500px;
   padding: 20px;
   border: 1px solid black;
@@ -227,4 +239,16 @@
   position: relative;
   left: 127px;
   bottom: 642px;
+}
+
+/* Dress Up Options*/
+#accessory {
+  height: 20px;
+  width: 20px;
+  background-color: pink;
+  border-radius: 20px;
+  z-index: 3;
+  position: relative;
+  left: 10px;
+  top: 150px;
 }
